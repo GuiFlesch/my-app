@@ -12,13 +12,13 @@ export default function PremiumBar() {
             </div>
             <div className="flex items-center mr-8 gap-4">
                 <ul className="flex gap-2">
-                    <PremiumItem className="text-zinc-400">Premium</PremiumItem>
-                    <PremiumItem className="text-zinc-400">Suporte</PremiumItem>
-                    <PremiumItem className="text-zinc-400">Baixar</PremiumItem>
+                    <PremiumItem className="text-zinc-400 max-[910px]:hidden hover:text-white">Premium</PremiumItem>
+                    <PremiumItem className="text-zinc-400 max-[910px]:hidden hover:text-white">Suporte</PremiumItem>
+                    <PremiumItem className="text-zinc-400 max-[910px]:hidden hover:text-white">Baixar</PremiumItem>
                 </ul>
-                <span className="text-white m-2">|</span>
+                <span className="text-white m-2 max-[910px]:hidden">|</span>
                 <ul className="flex gap-5 items-center ">
-                    <PremiumItem className="text-zinc-400">Inscrever-se</PremiumItem>
+                    <PremiumItem className="text-zinc-400 max-[666px]:hidden hover:text-white">Inscrever-se</PremiumItem>
                     <PremiumItem className="text-black bg-white px-8 py-2 rounded-full">Entrar</PremiumItem>
                 </ul>
             </div>

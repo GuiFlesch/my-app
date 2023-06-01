@@ -3,7 +3,7 @@ import { IconWorld } from "@tabler/icons-react";
 export default function HeaderOptions() {
     return (
         <div className={`
-            flex flex-col text-white w-full gap-3 pb-16
+            flex flex-col text-white w-full gap-3 mt-36 pb-14
         `}>
             <span className="p-5 mt-10 text-xs text-zinc-400 hover:underline cursor-pointer">
                 Cookies

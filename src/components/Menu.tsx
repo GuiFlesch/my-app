@@ -20,8 +20,8 @@ export default function Menu(props: MenuProps) {
             </ul>
             <ul className={`
             flex flex-col text-zinc-400 
-            w-full p-5 font-semibold text-sm
-            gap-4 md:pb-96 pb-72
+            w-full px-5 pt-5 pb-48 font-semibold text-sm
+            gap-4
         `}>
                 <MenuItem icone={<IconPlus
                     strokeWidth={2}

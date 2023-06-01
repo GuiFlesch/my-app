@@ -3,14 +3,23 @@ import Card from "./Card";
 export default function Conteudo() {
     return (
         <main className={`
-            flex flex-col ml-7 mt-8 mr-8 gap-7
+            flex flex-col ml-7 mt-8 gap-7
         `}>
-            <div className="flex flex-col">
+            <div className="flex flex-col w-full">
                 <div className="flex justify-between items-center">
                     <h2 className="text-2xl font-semibold text-white">Foco</h2>
                     <span className="text-zinc-400 text-sm font-semibold mr-14 cursor-pointer">Mostrar tudo</span>
                 </div>
-                <div className="flex gap-6">
+                <div className={`gap-6 grid grid-cols-1
+                min-[675px]:grid-cols-2 min-[600px]:max-w-[400px] 
+                min-[875px]:grid-cols-3 min-[874px]:max-w-[600px]
+                min-[1075px]:grid-cols-4 min-[874px]:max-w-[800px]
+                min-[1275px]:grid-cols-5 min-[1279px]:max-w-[1000px]
+                min-[1475px]:grid-cols-6 min-[1475px]:max-w-[1200px]
+                min-[1675px]:grid-cols-7 min-[1675px]:max-w-[1400px]
+                min-[1875px]:flex min-[1875px]:max-w-full
+
+                `}>
                     <Card title='Peaceful Piano' text='Peaceful piano to help you slow down...' url='/card1.jpg' />
                     <Card title='Deep Focus' text='Keep calm and focus with ambient and pos...' url='/card2.jpg' />
                     <Card title='Instrumental Study' text='Focus with soft study music in the...' url='/card3.jpg' />
@@ -27,7 +36,15 @@ export default function Conteudo() {
                 <div className="flex justify-between items-center">
                     <h2 className="text-2xl font-semibold text-white">Playlists do Spotify</h2>
                 </div>
-                <div className="flex gap-6">
+                <div className={`gap-6 grid grid-cols-1
+                min-[675px]:grid-cols-2 min-[600px]:max-w-[400px] 
+                min-[875px]:grid-cols-3 min-[874px]:max-w-[600px]
+                min-[1075px]:grid-cols-4 min-[874px]:max-w-[800px]
+                min-[1275px]:grid-cols-5 min-[1279px]:max-w-[1000px]
+                min-[1475px]:grid-cols-6 min-[1475px]:max-w-[1200px]
+                min-[1675px]:grid-cols-7 min-[1675px]:max-w-[1400px]
+                min-[1875px]:flex min-[1875px]:max-w-full
+`}>
                     <Card title='Todays top hits' text='Dua Lipa is on top of hotest' url='/card9.jpg' />
                     <Card title='RapCaviar' text='New music from Lil Durk, Moneybagg Yo...' url='/card10.jpg' />
                     <Card title='All out 2010s' text='The biggest songs of 2010s' url='/card11.jpg' />
@@ -38,7 +55,6 @@ export default function Conteudo() {
                     <Card title='All Outs 80s' text='The biggest songs of the 1980s.' url='/card16.jpg' />
                 </div>
             </div>
-
         </main>
     )
 }

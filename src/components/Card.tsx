@@ -14,7 +14,7 @@ export default function Card(props: CardProps) {
     return (
 
         <div className={`
-            flex flex-col w-44 h-72 relative
+            flex flex-col w-44 min-w-[44px] h-72 relative
             bg-gradient-to-b from-zinc-900 to-neutral-900
             rounded-md my-5 cursor-pointer hover:from-neutral-800 hover:to-neutral-800
         `}>

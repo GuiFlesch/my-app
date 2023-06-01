@@ -10,7 +10,7 @@ interface CabecalhoProps {
 export default function Cabecalho(props: CabecalhoProps) {
     return (
         <header className={`
-            flex flex-col h-full bg-black w-60
+            flex flex-col bg-black min-w-[232px] h-[937px] min- gap-5
         `}>
             <Logo />
             <Menu />
