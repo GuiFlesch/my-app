@@ -3,7 +3,7 @@ import PremiumItem from "./PremiumItem";
 export default function Rodape() {
     return (
         <div className={`
-        flex absolute bg-gradient-to-r from-pink-600 via-purple-500 to-indigo-500
+        flex fixed bg-gradient-to-r from-pink-600 via-purple-500 to-indigo-500
         w-full h-[72px] bottom-0 items-center justify-between
     `}>
             <div>
