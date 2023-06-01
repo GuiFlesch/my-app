@@ -14,10 +14,8 @@ export default function Conteudo() {
                 min-[675px]:grid-cols-2 min-[600px]:max-w-[400px] 
                 min-[875px]:grid-cols-3 min-[874px]:max-w-[600px]
                 min-[1075px]:grid-cols-4 min-[874px]:max-w-[800px]
-                min-[1275px]:grid-cols-5 min-[1279px]:max-w-[1000px]
-                min-[1475px]:grid-cols-6 min-[1475px]:max-w-[1200px]
-                min-[1675px]:grid-cols-7 min-[1675px]:max-w-[1400px]
-                min-[1875px]:flex min-[1875px]:max-w-full
+                min-[1275px]:grid-cols-4 min-[1279px]:max-w-[1000px]
+                min-[1775px]:flex min-[1775px]:max-w-full
 
                 `}>
                     <Card title='Peaceful Piano' text='Peaceful piano to help you slow down...' url='/card1.jpg' />
@@ -40,10 +38,8 @@ export default function Conteudo() {
                 min-[675px]:grid-cols-2 min-[600px]:max-w-[400px] 
                 min-[875px]:grid-cols-3 min-[874px]:max-w-[600px]
                 min-[1075px]:grid-cols-4 min-[874px]:max-w-[800px]
-                min-[1275px]:grid-cols-5 min-[1279px]:max-w-[1000px]
-                min-[1475px]:grid-cols-6 min-[1475px]:max-w-[1200px]
-                min-[1675px]:grid-cols-7 min-[1675px]:max-w-[1400px]
-                min-[1875px]:flex min-[1875px]:max-w-full
+                min-[1275px]:grid-cols-4 min-[1279px]:max-w-[1000px]
+                min-[1775px]:flex min-[1775px]:max-w-full
 `}>
                     <Card title='Todays top hits' text='Dua Lipa is on top of hotest' url='/card9.jpg' />
                     <Card title='RapCaviar' text='New music from Lil Durk, Moneybagg Yo...' url='/card10.jpg' />
