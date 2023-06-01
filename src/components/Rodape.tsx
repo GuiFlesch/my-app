@@ -8,7 +8,7 @@ export default function Rodape() {
     `}>
             <div>
                 <span className="uppercase text-white text-sm font-normal p-3">Testar o premium de graça</span>
-                <p className="text-white font-normal pl-3 text-sm">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito</p>
+                <p className="text-white font-normal pl-3 text-sm max-[600px]:hidden">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito</p>
             </div>
             <PremiumItem className="text-black bg-white px-8 py-2 rounded-full list-none mr-5">Inscreva-se grátis</PremiumItem>
         </div>
