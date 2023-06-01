@@ -6,10 +6,11 @@ interface PremiumItemProps{
 export default function PremiumItem(props: PremiumItemProps){
     return (
         <li className={`
-            text-zinc-400 text-base 
+            text-base 
             tracking-wider font-bold
-            hover:text-white hover:scale-105
+            hover:scale-105
             cursor-pointer
-            ${props.className ?? ''}`}>{props.children}</li>
+            ${props.className ?? ''}`}>{props.children}
+        </li>
     )
 }
