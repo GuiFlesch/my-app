@@ -11,11 +11,9 @@ export default function Conteudo() {
                     <span className="text-zinc-400 text-sm font-semibold mr-14 cursor-pointer">Mostrar tudo</span>
                 </div>
                 <div className={`gap-6 grid grid-cols-1
-                min-[675px]:grid-cols-2 min-[600px]:max-w-[400px] 
-                min-[875px]:grid-cols-3 min-[874px]:max-w-[600px]
-                min-[1075px]:grid-cols-4 min-[874px]:max-w-[800px]
-                min-[1275px]:grid-cols-4 min-[1279px]:max-w-[1000px]
-                min-[1775px]:flex min-[1775px]:max-w-full
+                min-[675px]:grid-cols-2 min-[675px]:max-w-[400px] 
+                min-[875px]:grid-cols-3 min-[875px]:max-w-[600px]
+                lg:flex lg:max-w-[1280px]
 
                 `}>
                     <Card title='Peaceful Piano' text='Peaceful piano to help you slow down...' url='/card1.jpg' />
@@ -24,8 +22,8 @@ export default function Conteudo() {
                     <Card title='Focus Flow' text='Uptempo instrumental hip hop beats.' url='/card4.jpg' />
                     <Card title='Workday Lounge' text='Lounge and chill out music for your workday' url='/card5.jpg' />
                     <Card title='Beats to think to' text='Focus with deep techno and tech house.' url='/card6.jpg' />
-                    <Card title='Reading Adventure' text='Scores and soundtracks for darin...' url='/card7.jpg' />
-                    <Card title='Relaxing Reading' text='Gentle instrumental music to help you rela...' url='/card8.jpg' />
+                    {/* <Card title='Reading Adventure' text='Scores and soundtracks for darin...' url='/card7.jpg' /> */}
+                    {/* <Card title='Relaxing Reading' text='Gentle instrumental music to help you rela...' url='/card8.jpg' /> */}
                 </div>
             </div>
 
@@ -35,11 +33,10 @@ export default function Conteudo() {
                     <h2 className="text-2xl font-semibold text-white">Playlists do Spotify</h2>
                 </div>
                 <div className={`gap-6 grid grid-cols-1
-                min-[675px]:grid-cols-2 min-[600px]:max-w-[400px] 
-                min-[875px]:grid-cols-3 min-[874px]:max-w-[600px]
-                min-[1075px]:grid-cols-4 min-[874px]:max-w-[800px]
-                min-[1275px]:grid-cols-4 min-[1279px]:max-w-[1000px]
-                min-[1775px]:flex min-[1775px]:max-w-full
+                min-[675px]:grid-cols-2 min-[675px]:max-w-[400px] 
+                min-[875px]:grid-cols-3 min-[875px]:max-w-[600px]
+                lg:flex lg:max-w-[1280px]
+
 `}>
                     <Card title='Todays top hits' text='Dua Lipa is on top of hotest' url='/card9.jpg' />
                     <Card title='RapCaviar' text='New music from Lil Durk, Moneybagg Yo...' url='/card10.jpg' />
@@ -47,8 +44,8 @@ export default function Conteudo() {
                     <Card title='Rock Classics' text='Rock legends & epic songs that continue t...' url='/card12.jpg' />
                     <Card title='Chill Hits' text='Kick back to the best new and recent chill...' url='/card13.jpg' />
                     <Card title='Viva Latino' text="Today's top Latin hits, elevando nuestra..." url='/card14.jpg' />
-                    <Card title='Mega Hit Mix' text='A mega mix of 75 favorites from the last...' url='/card15.jpg' />
-                    <Card title='All Outs 80s' text='The biggest songs of the 1980s.' url='/card16.jpg' />
+                    {/* <Card title='Mega Hit Mix' text='A mega mix of 75 favorites from the last...' url='/card15.jpg' /> */}
+                    {/* <Card title='All Outs 80s' text='The biggest songs of the 1980s.' url='/card16.jpg' /> */}
                 </div>
             </div>
         </main>

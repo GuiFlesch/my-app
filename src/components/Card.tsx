@@ -7,6 +7,7 @@ interface CardProps {
     title: string
     text: string
     url: string
+    className?: string
 }
 
 
@@ -17,6 +18,7 @@ export default function Card(props: CardProps) {
             flex flex-col w-44 min-w-[44px] h-72 relative
             bg-gradient-to-b from-zinc-900 to-neutral-900
             rounded-md my-5 cursor-pointer hover:from-neutral-800 hover:to-neutral-800
+            ${props.className ?? ''}
         `}>
             <CardImage url={props.url} />
             <CardTitle>{props.title}</CardTitle>
